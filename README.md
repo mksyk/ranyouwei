@@ -1,15 +1,13 @@
-# ranyouwei
-Developer Role Classification in GitHub Open Source Community
-Project Overview
+#Developer Role Classification in GitHub Open Source Community
+##Project Overview
 The aim of this project is to classify the roles of developers in the GitHub open source community. Based on the developer's behavior and influence in the project, their roles can be roughly divided into four categories: observer, contributor, maintainer, and leader. This project involves constructing a dataset and building a classification model to divide the role of the developer. Additionally, the classification algorithm will be compared with other models, and a deep analysis of behavior patterns based on classification results will be conducted to understand the collaboration mechanism and open source ecology.
 
-Dataset Construction
-Methodology
-Data Collection:
+#Methodology
+#Data Collection:
 
 Data is collected from various GitHub repositories.
 Key features include stars, forks, watches, issues, pull_requests, projects, commits, branches, packages, releases, contributors, and license.
-Data Cleaning:
+#Data Cleaning:
 
 Convert values such as 2.1k to 2100.
 Remove commas and quotes from numeric fields.
